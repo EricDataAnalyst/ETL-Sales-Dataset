@@ -42,3 +42,15 @@
 - Drop Year-Month Column
 > Since the **OrderDate** column already contains the **Year-Month** information, keeping both would be redundant. Removing the **Year-Month** column helps optimize storage when uploading the dataset to the database.
 ![Drop Y-M col](https://github.com/EricDataAnalyst/ETL-Sales-Dataset/blob/main/Drop%20Y-M%20col.JPG)
+- Checking and Correcting Data Types in a Pandas DataFrame
+> Convert Order ID to string<br>
+> Convert Amount to float<br>
+> Convert Profit to float<br>
+> Convert Cost to float<br>
+> Convert Quantity to float<br>
+> Convert Order Date to datetime
+![Convert](https://github.com/EricDataAnalyst/ETL-Sales-Dataset/blob/main/change%20data%20type.JPG)
+- Change Column Name
+> Order ID = OrderID<br>
+> Order Date = OrderDate
+![Column Name](https://github.com/EricDataAnalyst/ETL-Sales-Dataset/blob/main/column%20name.JPG)
